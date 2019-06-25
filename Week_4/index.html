@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CSS Practice</title>
+
+    <style>
+        body {
+            background-color: #2980b9;
+        }
+
+        main p {
+            text-decoration: underline;
+        }
+        
+        
+        /*select all mains within all divs within the body.*/
+        
+        body div main p {
+            color: yellow;
+        }
+        
+        
+        /*Direct Child Selector there should be a main that is a direct child of div which should be the direct child of body */
+        body > div > main p {
+            color: cyan;
+        
+        }
+        
+        #bolder {
+            font-weight: bold;
+        }
+        
+        #italicized {
+            font-size: ital
+        }
+    
+        body div main ul {
+            text-decoration: underline
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="container">
+        <header>
+            <h1>Header</h1>
+            <p>This is the <span>header</span> section.</p>
+        </header>
+        
+        <main>
+            <h1>Main</h1>
+            <p>This is the main section.</p>
+    <div id="list">
+            <ul>
+                <li>Hello</li>
+                <li>Hola</li>
+                <li>Mahalo</li>
+                <li>Aloha</li>
+                <li>Audios</li>
+            
+            </ul>
+            
+            
+        </main>
+        
+    <div id="another container">
+        <main>
+            <p>This is something else.</p>
+        </main>
+        </div>
+        
+        
+        <footer>
+            <h1>Footer</h1>
+            <p>This is the footer section.</p>
+        </footer>
+    </div>
+
+
+
+
+</body>
+
+</html>
