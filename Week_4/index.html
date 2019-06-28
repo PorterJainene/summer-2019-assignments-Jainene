@@ -6,48 +6,167 @@
 
     <title>CSS Practice</title>
 
-   <!-- CSS Internal Stylesheet -->
+    <!-- CSS Internal Stylesheet -->
     <style>
-        body {
-            background-color: #bdc3c7;
+
+        #hand {
+            margin-top: 100px;
+            
         }
+        
+        
+        .card {
+            width: 320px;
+            height: 445px;
+            border: 1px black solid;
+            border-radius: 20px;
+            position: absolute;
+            background-color: white;
+            margin-top: 50px;
+        }
+        
+        .card image {
+            margin=left: 8 px;
+        
+        }
+        
+        .card > p {
+        
+            font-family: "Arial", sans-serif;
+            font-size: 48px;
+            magin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            margin-left: 20px;
+            margin-top: 15px;
+            
+        }
+
+        
+        #first {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background-color: beige
+            
+        }
+        
+        #first img {
+            
+        }
+        
+        #second {
+            left: 90px;
+            top: 90px;
+            background-color: cyan;
+        
+        }
+        
+        #second img {
+            width: 60px;
+            
+        
+        }
+        
+        #third {
+            top: 150px;
+            left: 150px;
+            background-color: red;
+        
+        }
+        
+        #third img{
+        
+        }
+        
+        
+        
+        
+        #fourth {
+            top: 220px;
+            left: 220 px;
+            background-color: lightgreen;
+        
+        
+        }
+        
+        #fourh img {
+        
+        
+        
+        }
+        #fifth {
+            top: 290px;
+            left: 290px;
+            background-color: azure;
     
-        .special {
-            font-size: 24px;
+        
         }
         
-        p span.special {
-            text-decoration: underline;
+        #fifth img {
+        
         }
         
-        h1 span.special {   
-            text-decoration: line-through underline overline;
+        .red {
+        
+        
+        
         }
         
-        #outer .inner {}
+        .black {
+        
+        
+        }
+        
+        
         
     </style>
 
 </head>
 
 <body>
+
     
-    <div id="container">
+
+    <div div="hand">
+
+        <div class="card red" id="first">
+            <p>9</p>
+            <img src="images/n9_of_spades.svg" alt="img of spades"/>
         
-            <div id="outer">
-                <p class="inner">I am inside the outer div.</p>
-                <p class="special">I am special.</p>
-                
         </div>
         
-        <p>Hello <span class="special">there</span>, I am a p tag.</p>
-        <h1>How are you <span class="special">doing</span>, I am a h1 tag.</h1>
+        <div class="card red" id="second">
+            <p>8</p>
+            <img src="images/n_8_of_spades.svg" alt="img of spades">
+          
+        </div>
+
+        <div class="card red" id="third">
+            <p>7</p>
+            <img src="images/n_7_of_spades.svg" alt="img of spades">
+        </div>
+
+        <div class="card red" id="fourth">
+            <p>6</p>
+            <img src: "n_6_of_spades.svg" alt="an img of spades"/>
+        </div>
         
+        <div class="card black" id="fifth">
+            <p>5</p>
+            <img src: "n_5_of_spades.svg" alt="an img of spades"/>
+        
+        </div>
+
     </div>
+
+
+
 </body>
 
-    <footer>
-    
-    </footer>
-    
+<footer>
+
+</footer>
+
 </html>

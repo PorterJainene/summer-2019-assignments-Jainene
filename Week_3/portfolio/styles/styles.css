@@ -1,3 +1,17 @@
+
+/* Main Styles */
+
+body { 
+    background-color:white;
+    background-image:url(../images/art-background-beverage-414720.jpg")
+    backgroud-size: cover;
+}
+
+
+#container {
+    width: 700px;
+}
+
 header {
     
     width: 700px;
@@ -5,6 +19,8 @@ header {
     border: 1px black dashed;
     margin-left: auto;
     margin-right: auto;
+    font-family: cursive;
+    text-align: center
         
 }
 
@@ -17,12 +33,39 @@ main {
         
 }
 
+#intro image img {
+    width:500px;
+    border-radius: 50%;
+}
+    
 footer {
     width: 700px;
-    height: 100px;
+   /* height: 100px;*/
     border: 1px black dashed;
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto;
         
 }
+
+
+h1 {
+    font-size: 100px;
+    font-family: cursive;
+    color: darkgray;
+    text-align:center;
+    
+}
+
+p {
+    font-size: 36px;
+    font-family:"Arial", sans-serif;
+    color: darkblue;
+    text-align: 
+}
+
+a {
+    font-size: 36px;
+    font-family: "Arial",sans-serif;
+    color: darkblue;}
+
