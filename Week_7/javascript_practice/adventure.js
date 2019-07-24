@@ -19,7 +19,7 @@ if (flipCoinTails) {
 
 var visitSanFrancisco
 var GoldenGateBridge
-var FishermansWarf
+var fishermansWarf
 
 if (visitSanFrancisco) {
     console.log("Option 1: Go to the Golden Gate Bridge")
@@ -28,7 +28,7 @@ if (visitSanFrancisco) {
 
 
 var visitNewYorkCity
-var EmpireStatesBuilding
+var empireStatesBuilding
 var TimesSquare
 
 if (visitNewYorkCity) {
