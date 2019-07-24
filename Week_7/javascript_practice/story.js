@@ -1,10 +1,30 @@
+console.log(process.argv);
+
+var randomNumber = process.argv[2];
+
 var randomNumber = Math.floor() * 4 );
 randomNumber = Math.floor(randomNumber);
+
 console.log(randomNumber);
 
 var vehicle = "bus";
+
+if ( randomNumber == 0) {
+    vehicle = "bus";
+} else if (randomNumber == 1) {
+    vehicle = "car";
+} else if (randomNumber == 2) {
+    vehicle = "carpet";
+} else if (randomNumber == 3) {
+    vehicle = "";
+}
+
+
 var accident = "";
 var tardinessMinutes =  0; // minutes
+
+console.log()
+console.log()
 
 
 //This decides what the output is based on the variable vehicle.
@@ -45,5 +65,7 @@ if (ardinessMinutes >= 15) {
 } else {
     console.log("John arrived on time, thans to a eventless commute.");
 }
+
+
 
 
